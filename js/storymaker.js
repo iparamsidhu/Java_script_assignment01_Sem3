@@ -23,17 +23,16 @@ const resetButton = document.querySelector('#reset');
 const storyPara = document.querySelector('#story');
 
 // Variables for pre-defined arrays
-let noun1Array = ['Inder', 'Mary', 'The cat', 'A horse', 'A tortoise'];
-let verbArray = ['ran', 'sat', 'jumped', 'climbed', 'ate'];
-let adjectiveArray = ['slow', 'fast', 'good', 'calm', 'gracefully'];
-let noun2Array = ['the ocean', 'a tall tree', 'a majestic mountain', 'a winding road', 'a comfortable chair'];
-let settingArray = [
-  'on a sunny day at the beach',
-  'during a quiet night with a full moon',
-  'in the bustling city center',
-  'deep in the heart of a lush forest',
-  'underneath a starry sky beside a bonfire'
-];
+const noun1Array = ["Giggly Gnome", "Whimsical Wizard", "Inder", "Bouncing Bumblebee", "Starlight Sprite", "Bubblegum Bunny", "Moonbeam Moose", "Raindrop Raccoon", "Sunshine Seahorse", "Sapphire Squirrel"];
+
+const verbArray = ["twirled", "giggled", "zapped", "wiggled", "glimmered", "snickered", "whispered", "hopped", "jazzed", "snuggled"];
+
+const adjectiveArray = ["sparkle-tastic", "giggle-worthy", "whimsy-filled", "enchanted", "rainbow-hued", "merry", "jubilant", "fluffy", "bubbly", "joyful"];
+
+const noun2Array = ["Lollipop Land", "Wonder Whirlpool", "Choco-Charm Valley", "Jellybean Junction", "Peppermint Palace", "Dreamy Delight Den", "Bubblegum Boulevard", "Cupcake Cove", "Glowing Galaxy", "Sugarplum Summit"];
+
+const settingArray = ["where laughter never ends", "beneath a cotton candy sky", "amidst a field of giggling flowers", "inside a giant bubblegum bubble", "at the heart of the laughter volcano", "along the rainbow river", "underneath the sprinkle-studded tree", "in a cloud castle", "amongst the dancing fireflies", "within the melody of joyous stars"];
+
 
 
 // Variables for count to grab array elements
